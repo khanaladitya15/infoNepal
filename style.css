@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&family=Poppins:wght@100;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* nav bar styling */
+li{
+    list-style: none;
+}
+.naa{
+    padding-bottom: 8px;
+}
+.main-logo{
+    margin: 0 10px;
+}
+.navbar{
+    background: rgb(28,27,28);
+background: linear-gradient(90deg, rgba(28,27,28,1) 8%, rgba(21,142,138,1) 100%);
+}
+.nav-links{
+    padding: 5px 9px;
+    color: #e6e6e6;
+    font-size: 18px;
+    border: 1px solid #fff;
+    margin: 0 8px;
+    padding: 4px 6px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    transition: all 0.2s;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+.nav-links:hover{
+    color: rgb(14, 58, 139);
+    background: rgb(212, 236, 211);
+    border: none;
+}
+/* nav bar styling */

@@ -190,3 +190,68 @@ margin-top: 60px;
 
 }  
 /* parallax  */
+
+/* visit section */
+.imgs{
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 13px;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 43px;
+}
+.bottom-left2{
+    position: absolute;
+    top: 320px;
+    left: 725px;
+    color: #333;
+}
+.bottom-left3{
+    position: absolute;
+    top: 250px;
+    left: 775px;
+    color: #333;
+}
+.bottom-left4{
+    position: absolute;
+    top: 250px;
+    left: 45px;
+    color: #333;
+}
+.bottom-left5{
+    position: absolute;
+    top: 250px;
+    left: 545px;
+    color: #333;
+}
+.bottom-left6{
+    position: absolute;
+    top: 255px;
+    left: 45px;
+    color: #333;
+}
+.row{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.btni{
+    position: relative;
+    top: 150px;
+}
+.btnss{
+    padding: 6px 9px;
+    border: 2px solid black;    
+    background: none;
+    color: #333;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.btnss:hover{
+    background: #333;
+    color: #fff;
+}
+/* visit section */

@@ -8,9 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
+<body style="overflow-x: hidden;">
     <!-- nav bar -->
-    <nav class="navbar navbar-expand-sm">
+    <nav class="navbar navbar-expand-sm ">
         <div>
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Emblem_of_Nepal_%282020%29.svg/2444px-Emblem_of_Nepal_%282020%29.svg.png" alt="main-logo" height="40" class="main-logo">
         </div>
@@ -86,14 +86,14 @@
     <!-- jumborton 1 -->
     <div class="container">
       <div class="row d-flex">
-        <div class="mt-4 p-5 bg-primary text-dark rounded col-6 jumb1 ">
+        <div class="mt-4 p-5 bg-primary text-dark rounded col-6-sm jumb1 ">
           <h1>Contents</h1>
           <li class="li-jumb">About different cultures in Nepal </li>
           <li class="li-jumb">About different traditions in Nepal </li>
           <li class="li-jumb"> About the foods available in nepal </li>
           <li class="li-jumb"> About different place to visit in nepal </li>
         </div>
-        <div class="mt-4 p-5 bg-primary text-white rounded col-6 jumb2">
+        <div class="mt-4 p-5 bg-primary text-white rounded col-6-sm jumb2">
           <h1>About Nepal</h1>
           <p class="text-dark text-left">Nepal, country of Asia, lying along the southern slopes of the Himalayan mountain ranges. It is a landlocked country located between India to the east, south, and west and the Tibet Autonomous Region of China to the north. Its territory extends roughly 500 miles (800 kilometres) from east to west and 90 to 150 miles from north to south. The capital is Kathmandu.</p>
           <a class="btn btn-muted btn1" href="https://www.britannica.com/place/Nepal/Government-and-society">VIEW MORE</a>
@@ -106,57 +106,60 @@
       <div>
         <h1 class="text-center text-muted cultr">In Nepal, People follow mainly these religions ...</h1>
       </div>
-      <div class="cultrr d-flex justify-content-center align-content-center py-3 mt-3">
-        <div class="wrapper d-flex align-items-center justify-content-center">
+      <div class="row">
+        <div class="cultrr d-flex justify-content-center align-content-center py-3 mt-3 col-4-sm">
+          <div class="wrapper d-flex align-items-center justify-content-center">
+            <div class="card">
+                <div class="img-container position-relative w-100 h-100">
+                    <img src="https://www.goglides.com/blog/content/images/2019/08/pashupatinath-1.jpg" alt="culture1">
+                    <img src="https://english.onlinekhabar.com/wp-content/uploads/2018/02/pashupatinath.jpg" alt="culture1">
+                </div>
+                <div class="box w-100 h-100 position-absolute d-flex align-items-center justify-content-center cultrr-1">
+                    <div class="inner-content d-flex flex-column align-content-center justify-content-center">
+                        <div class="h2 m-0 text-center">The Hindus</div>
+                        <p class="px-3 mt-3 text-center">Hinduism is the main and largest religion of Nepal. In 2007, the country declared itself a secular country through democracy; still, some special privileges were given to Indic religions. </p>
+                        <a href="https://en.wikipedia.org/wiki/Hinduism_in_Nepal#:~:text=According%20to%20the%202011%20census,any%20country%20in%20the%20world." class="btn btn-info btns">More Info</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper d-flex align-items-center justify-content-center col-4-sm">
           <div class="card">
               <div class="img-container position-relative w-100 h-100">
-                  <img src="https://www.goglides.com/blog/content/images/2019/08/pashupatinath-1.jpg" alt="culture1">
-                  <img src="https://english.onlinekhabar.com/wp-content/uploads/2018/02/pashupatinath.jpg" alt="culture1">
+                  <img src="https://images.squarespace-cdn.com/content/v1/53ecd1bde4b0a6f9524254f8/1505018698030-9K1PW7YBCV2HCW16TMMH/91475-Kopan-Monastery.jpg?format=2500w" alt="culture-2">
+                  <img src="https://lp-cms-production.imgix.net/2019-06/fe9718d3c9c5642407f582cae83ad8b6-cambodian-monastery.jpg" alt="culture2">
               </div>
-              <div class="box w-100 h-100 position-absolute d-flex align-items-center justify-content-center cultrr-1">
+              <div class="box w-100 h-100 position-absolute d-flex align-items-center justify-content-center cultrr-2">
                   <div class="inner-content d-flex flex-column align-content-center justify-content-center">
-                      <div class="h2 m-0 text-center">The Hindus</div>
-                      <p class="px-3 mt-3 text-center">Hinduism is the main and largest religion of Nepal. In 2007, the country declared itself a secular country through democracy; still, some special privileges were given to Indic religions. </p>
-                      <a href="https://en.wikipedia.org/wiki/Hinduism_in_Nepal#:~:text=According%20to%20the%202011%20census,any%20country%20in%20the%20world." class="btn btn-info btns">More Info</a>
+                      <div class="h2 m-0 text-center">The Buddhism</div>
+                      <p class="px-3 mt-3 text-center">Buddhism in Nepal started spreading since the reign of Ashoka through Indian and Tibetan missionaries. The Kiratas were the first people in Nepal who embraced Gautama Buddha’s teachings, followed by the Licchavis and Newar people.</p>
+                      <a href="https://en.wikipedia.org/wiki/Buddhism_in_Nepal#:~:text=Buddhism%20is%20the%20second-largest,9%25%20of%20the%20country's%20population." class="btn btn-danger btns">More Info</a>
                   </div>
               </div>
           </div>
       </div>
-      <div class="wrapper d-flex align-items-center justify-content-center">
+      <div class="wrapper d-flex align-items-center justify-content-center col-4-sm">
         <div class="card">
             <div class="img-container position-relative w-100 h-100">
-                <img src="https://images.squarespace-cdn.com/content/v1/53ecd1bde4b0a6f9524254f8/1505018698030-9K1PW7YBCV2HCW16TMMH/91475-Kopan-Monastery.jpg?format=2500w" alt="culture-2">
-                <img src="https://lp-cms-production.imgix.net/2019-06/fe9718d3c9c5642407f582cae83ad8b6-cambodian-monastery.jpg" alt="culture2">
+                <img src="https://qph.fs.quoracdn.net/main-qimg-33f6567fc2ab7ba1d1579ab5cc9cab6a.webp" alt="">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Bhairav_Ganesh_Temple%2C_Pasupati_Temple_Hanumandhoka_Makhan_Tole_Kathmandu%2C_Nepal_Rajesh_Dhungana.jpg/1200px-Bhairav_Ganesh_Temple%2C_Pasupati_Temple_Hanumandhoka_Makhan_Tole_Kathmandu%2C_Nepal_Rajesh_Dhungana.jpg" alt="">
             </div>
-            <div class="box w-100 h-100 position-absolute d-flex align-items-center justify-content-center cultrr-2">
+            <div class="box w-100 h-100 position-absolute d-flex align-items-center justify-content-center cultrr-3">
                 <div class="inner-content d-flex flex-column align-content-center justify-content-center">
-                    <div class="h2 m-0 text-center">The Buddhism</div>
-                    <p class="px-3 mt-3 text-center">Buddhism in Nepal started spreading since the reign of Ashoka through Indian and Tibetan missionaries. The Kiratas were the first people in Nepal who embraced Gautama Buddha’s teachings, followed by the Licchavis and Newar people.</p>
-                    <a href="https://en.wikipedia.org/wiki/Buddhism_in_Nepal#:~:text=Buddhism%20is%20the%20second-largest,9%25%20of%20the%20country's%20population." class="btn btn-danger btns">More Info</a>
+                    <div class="h2 m-0 text-center">Kirat Mundhum</div>
+                    <p class="px-3 mt-3 text-center">The Kirati people, also spelled as Kirant or Kiranti, are a Sino-Tibetan ethnic group. They are peoples of the Himalayas, mostly the Eastern Himalaya extending eastward from Nepal to North East India .</p>
+                    <a href="https://en.wikipedia.org/wiki/Kirat_Mundhum" class="btn btn-success btns">More Info</a>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="wrapper d-flex align-items-center justify-content-center">
-      <div class="card">
-          <div class="img-container position-relative w-100 h-100">
-              <img src="https://qph.fs.quoracdn.net/main-qimg-33f6567fc2ab7ba1d1579ab5cc9cab6a.webp" alt="">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Bhairav_Ganesh_Temple%2C_Pasupati_Temple_Hanumandhoka_Makhan_Tole_Kathmandu%2C_Nepal_Rajesh_Dhungana.jpg/1200px-Bhairav_Ganesh_Temple%2C_Pasupati_Temple_Hanumandhoka_Makhan_Tole_Kathmandu%2C_Nepal_Rajesh_Dhungana.jpg" alt="">
-          </div>
-          <div class="box w-100 h-100 position-absolute d-flex align-items-center justify-content-center cultrr-3">
-              <div class="inner-content d-flex flex-column align-content-center justify-content-center">
-                  <div class="h2 m-0 text-center">Kirat Mundhum</div>
-                  <p class="px-3 mt-3 text-center">The Kirati people, also spelled as Kirant or Kiranti, are a Sino-Tibetan ethnic group. They are peoples of the Himalayas, mostly the Eastern Himalaya extending eastward from Nepal to North East India .</p>
-                  <a href="https://en.wikipedia.org/wiki/Kirat_Mundhum" class="btn btn-success btns">More Info</a>
-              </div>
-          </div>
-      </div>
+     </div>
    </div>
- </div>
- <div class="container">
-   <a href="https://en.wikipedia.org/wiki/Religion_in_Nepal" target="_blank" type="button" class="btn btn-dark add-on">Discover other cultures in Nepal</a>
- </div>
-</div>
+   <div class="container d-flex justify-content-center">
+     <a href="https://en.wikipedia.org/wiki/Religion_in_Nepal" target="_blank" type="button" class="btn btn-dark add-on">Discover other cultures in Nepal</a>
+   </div>
+  </div>
+  </div>
+     
     <!-- Religionsection -->
     <!-- parallalax -->
     <div class="container-fluid parallax">
@@ -221,7 +224,7 @@
     <!-- culture section -->
 <!-- cinematic video -->
 <div class="container">
-  <iframe width="940" height="415" src="https://www.youtube.com/embed/4OiXfDdbtnM?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 10px; margin-top: 80px; margin-left: 150px;"></iframe>
+  <iframe src="https://www.youtube.com/embed/4OiXfDdbtnM?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 10px; margin: 140px auto; width: 100%;height: 560px;"></iframe>
 </div>
 <!-- cinematic video -->
 <!-- visit section -->
@@ -271,8 +274,8 @@
 <!-- visit section -->
 <!-- food section -->
 <h1 class="text-center text-muted m-3 p-3" id="food">Foods in nepal</h1>
-<div class="container d-flex">
-  <div class="flip-card" style="margin: 60px;";>
+<div class="container d-flex food-sec">
+  <div class="flip-card col-lg-4 mb-4 mb-lg-0" style="margin: 60px;";>
     <div class="flip-card-inner">
       <div class="flip-card-front">
         <img src="https://www.thespruceeats.com/thmb/cj6FPiWMABEc5f4RST-EWbjncuE=/735x0/steamed-momos-wontons-1957616-hero-01-1c59e22bad0347daa8f0dfe12894bc3c.jpg" alt="momo" style="width:300px;height:300px; border-radius: 10px;">
@@ -282,7 +285,7 @@
       </div>
     </div>
 </div>
-<div class="flip-card" style="margin: 60px;";>
+<div class="flip-card col-lg-4 mb-4 mb-lg-0" style="margin: 60px;";>
   <div class="flip-card-inner">
     <div class="flip-card-front">
       <img src="https://www.kathmandupalacerestaurant.com/wp-content/uploads/2022/01/mutton-khana-set-1.gif" alt="thakali khana" style="width:300px;height:300px; border-radius: 10px;">
@@ -292,7 +295,7 @@
     </div>
   </div>
 </div>
-<div class="flip-card" style="margin: 60px;";>
+<div class="flip-card col-lg-4 mb-4 mb-lg-0" style="margin: 60px;";>
   <div class="flip-card-inner">
     <div class="flip-card-front">
       <img src="https://i.pinimg.com/originals/7c/c2/c6/7cc2c641f3be53e1ded1dff02764e60c.jpg" alt="Newari khana" style="width:300px;height:300px; border-radius: 10px;">
@@ -304,8 +307,8 @@
 </div>
 
 </div>
-<div class="container d-flex">
-  <div class="flip-card" style="margin: 60px;";>
+<div class="container d-flex food-sec-2">
+  <div class="flip-card col-lg-4 mb-4 mb-lg-0" style="margin: 60px;";>
     <div class="flip-card-inner">
       <div class="flip-card-front">
         <img src="https://www.muncha.com/img/l86302.jpg" alt="sekuwa" style="width:300px;height:300px; border-radius: 10px;">
@@ -315,7 +318,7 @@
       </div>
     </div>
 </div>
-<div class="flip-card" style="margin: 60px;";>
+<div class="flip-card col-lg-4 mb-4 mb-lg-0" style="margin: 60px;";>
   <div class="flip-card-inner">
     <div class="flip-card-front">
       <img src="https://romandianmasala.com/wp-content/uploads/2022/02/DSC01534-2-768x1024.jpg" alt="Thukpa" style="width:300px;height:300px; border-radius: 10px;">
@@ -325,7 +328,7 @@
     </div>
   </div>
 </div>
-<div class="flip-card" style="margin: 60px;";>
+<div class="flip-card col-lg-4 mb-4 mb-lg-0" style="margin: 60px;";>
   <div class="flip-card-inner">
     <div class="flip-card-front">
       <img src="https://i.pinimg.com/originals/f9/b9/ae/f9b9ae9dfbafd342dd5ca79f1f249291.jpg" alt="selroti" style="width:300px;height:300px; border-radius: 10px;">
@@ -336,7 +339,9 @@
   </div>
 </div>
 </div>
-<a href="https://www.holidify.com/pages/food-of-nepal-2118.html" target="_blank"class="btnsss">Explore more</a>
+<div class="d-flex justify-content-center">
+  <a href="https://www.holidify.com/pages/food-of-nepal-2118.html" target="_blank"class="btnsss">Explore more</a>
+</div>
 <!-- food section -->
 <!-- festivals section -->
 <h1 class="text-muted text-center" style="margin-top: 200px; margin-bottom: 40px;">Festivals in Nepal</h1>
@@ -384,16 +389,18 @@
       />
     </div>
   </div>
-  <div>
+  <div class="d-flex justify-content-center">
     <a href="https://en.wikipedia.org/wiki/List_of_festivals_in_Nepal" target="_blank" class="btn-fest">Explore more</a>
   </div>
 </div>
 
 <!-- festivals section -->
 <!-- footer -->
-<footer>
+<footer style="width: 100%;"><div class="conatiner-fluid">
   <p class="text-center footer-details">All rights reserved 2022&copy; To promote tourism of nepal</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="0.7" d="M0,224L15,218.7C30,213,60,203,90,186.7C120,171,150,149,180,128C210,107,240,85,270,90.7C300,96,330,128,360,154.7C390,181,420,203,450,192C480,181,510,139,540,149.3C570,160,600,224,630,218.7C660,213,690,139,720,117.3C750,96,780,128,810,144C840,160,870,160,900,138.7C930,117,960,75,990,69.3C1020,64,1050,96,1080,122.7C1110,149,1140,171,1170,186.7C1200,203,1230,213,1260,202.7C1290,192,1320,160,1350,165.3C1380,171,1410,213,1425,234.7L1440,256L1440,320L1425,320C1410,320,1380,320,1350,320C1320,320,1290,320,1260,320C1230,320,1200,320,1170,320C1140,320,1110,320,1080,320C1050,320,1020,320,990,320C960,320,930,320,900,320C870,320,840,320,810,320C780,320,750,320,720,320C690,320,660,320,630,320C600,320,570,320,540,320C510,320,480,320,450,320C420,320,390,320,360,320C330,320,300,320,270,320C240,320,210,320,180,320C150,320,120,320,90,320C60,320,30,320,15,320L0,320Z"></path>
+</div>
+  
 </svg>
 </footer>
 
